@@ -1,0 +1,29 @@
+.products {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  display: inline-block;
+}
+
+.products__title {
+  font-size: 2rem;  
+  font-weight: 700;
+  color: var(--very-dark-magenta);
+  line-height: normal;
+
+  text-align: center;
+
+  width: 280px;
+
+  margin: 0 auto;
+}
+
+.products__description {
+  margin: 1rem 0;
+
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: var(--dark-grayish-magenta);
+}
+
