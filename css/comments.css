@@ -64,3 +64,22 @@
   line-height: 1.5;
 }
 
+@media screen and (min-width: 1024px) {
+  .comments__user {
+    flex-direction: row;
+  }
+
+  .comments__list {
+    width: 230px;
+    max-width: 300px;
+  }
+
+  .comments__list:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .comments__list:nth-child(3) {
+    margin-top: 60px;
+  }
+}
+
