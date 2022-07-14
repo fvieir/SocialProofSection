@@ -1,0 +1,17 @@
+.attribution {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  background-color: var(--very-dark-magenta);
+  border-radius: 5px;
+
+  color: var(--white);
+}
+
+.attribution__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
