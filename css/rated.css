@@ -1,6 +1,7 @@
 .rated {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  
 }
 
 .rated__content {
@@ -29,4 +30,18 @@
 .rated__description {
   color: var(--very-dark-magenta);
   font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .rated {
+    flex: 1 1 40%;
+  }
+
+  .rated__list:nth-child(2) {
+    margin-right: 20px;
+  }
+
+  .rated__list:nth-child(3) {
+    margin-right: 40px;
+  }
 }
